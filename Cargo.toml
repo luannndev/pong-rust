@@ -1,0 +1,18 @@
+[package]
+name = "rust-pong"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.79"
+color-eyre = "0.6.3"
+crossterm = "0.28.1"
+delegate = "0.13.1"
+futures = "0.3.30"
+ratatui = { version = "0.28.1" }
+russh = "0.45.0"
+russh-keys = "0.45.0"
+scopeguard = "1.2.0"
+tokio = { version = "1.37.0", features = ["rt-multi-thread"] }
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
